@@ -5,7 +5,24 @@
         "ProjectId": "094293a0-55c8-4541-8191-651f83d95831",
         "ProjectName": "Test_Project",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "2297da1e-95a2-4aa4-97b4-e60181f73ac8",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "c9112596-a688-4b1b-959e-e2ff582400cf",
+                "DatabaseAliasName": "DB_1",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/dbm-ori-user-1/dbm-sc-repo.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -16,7 +33,17 @@
       "UserData": [
         {
           "UserName": "dbm-ori-user-1",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "c9112596-a688-4b1b-959e-e2ff582400cf",
+              "DatabaseAliasName": "DB_1",
+              "ConnectionString": "ZcFdJI9Qxkg8yoBaWDSrZ7ZJKD9/QCwBi5bdy+5oF+gVbF9vOoPUP90kQf2qIKnD5Si+mOZdCjvd5draKqZFmA8s4+pVM7awHkgSV5fT7brpjfQA101L/oOMbWNLM6llciasWRDglbNk9ezYGDYbjg==",
+              "RepositoryCredentials": {
+                "UserName": "dbm-ori-user-1",
+                "Password": "dfYyOcp3K0sRHHQY+XjWmw9u1ojFZbAGXWhoJgcUKRT4MMCLg/nJyaMwamy6wnta"
+              }
+            }
+          ]
         }
       ]
     }
