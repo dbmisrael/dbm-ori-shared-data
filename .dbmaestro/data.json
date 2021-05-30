@@ -44,6 +44,20 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "dbm-ori-user-2",
+          "DatabasesData": [
+            {
+              "DatabaseId": "c9112596-a688-4b1b-959e-e2ff582400cf",
+              "DatabaseAliasName": "DB_1",
+              "ConnectionString": "ZcFdJI9Qxkg8yoBaWDSrZ7ZJKD9/QCwBi5bdy+5oF+jXeLQ/5euoBFLmPP1TBBcly5OI0qQxd3Wrtc8hhFL3mjRZw48d7Tmxbk3rjH4ilw5zn9glSv0N+FidyUZgAbf5eC7zHCA0zEe+A21792vgzQ==",
+              "RepositoryCredentials": {
+                "UserName": "dbm-ori-user-2",
+                "Password": "zzKef/orx/yAxJKCo7ASHTZ08WUXrz8ZmN1y8w67+2nmJaC92ihRJXiUTUx0Bu/f"
+              }
+            }
+          ]
         }
       ]
     }
