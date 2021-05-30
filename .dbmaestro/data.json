@@ -1,0 +1,24 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "094293a0-55c8-4541-8191-651f83d95831",
+        "ProjectName": "Test_Project",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1
+        },
+        "LocalDirectory": "C:\\SC_Test\\User_1\\Test_Project"
+      },
+      "UserData": [
+        {
+          "UserName": "dbm-ori-user-1",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ]
+}
