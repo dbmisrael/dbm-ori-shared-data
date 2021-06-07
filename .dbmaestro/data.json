@@ -60,6 +60,26 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "e422a7b3-cf4b-4e8c-b089-64665ab7a24a",
+        "ProjectName": "Test_Project_4",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1
+        },
+        "LocalDirectory": "C:\\SC_Test\\User_1\\Test_Project_4"
+      },
+      "UserData": [
+        {
+          "UserName": "dbm-ori-user-1",
+          "DatabasesData": []
+        }
+      ]
     }
   ]
 }
