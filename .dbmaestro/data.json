@@ -1,0 +1,28 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "db8283fa-59e5-41a8-8527-ccbd3c925e55",
+        "ProjectName": "Test_7652",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "NumberOfTagsInBuildOptions": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\SC_Test\\User_1\\Test_7652"
+      },
+      "UserData": [
+        {
+          "UserName": "dbm-ori-user-1",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ]
+}
