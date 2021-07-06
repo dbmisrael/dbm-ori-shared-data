@@ -5,7 +5,32 @@
         "ProjectId": "db8283fa-59e5-41a8-8527-ccbd3c925e55",
         "ProjectName": "Test_7652",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "7740941d-5276-4926-9455-1f7936915555",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "b0c8a7f3-7541-499b-a99e-4da484ad3e8e",
+                "DatabaseAliasName": "DB_Test7652",
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "T21-LFG",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "DatabaseName": "sc_user_1"
+                },
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7652, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/dbm-ori-user-1/dbm-sc-repo.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -20,7 +45,17 @@
       "UserData": [
         {
           "UserName": "dbm-ori-user-1",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "b0c8a7f3-7541-499b-a99e-4da484ad3e8e",
+              "DatabaseAliasName": "DB_Test7652",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "dbm-ori-user-1",
+                "Password": "dfYyOcp3K0sRHHQY+XjWmw9u1ojFZbAGXWhoJgcUKRT4MMCLg/nJyaMwamy6wnta"
+              }
+            }
+          ]
         }
       ]
     }
